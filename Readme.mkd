@@ -3,7 +3,7 @@
 The aim of z80nops, is to compute the amount of nops takes a (very) simple z80 routine.
 There are lots of limitations to this project:
 
- * does not take into account insttructions having 2 durations (a conditionnal jump, for example)
+ * does not take into account instructions having 2 durations (a conditionnal jump, for example)
  * does not take into account instructions whose durations depends on a specific register (ldir for example)
  * does not take into account branching possibilities and sub-functions (no tree of duration are computed)
 
@@ -94,4 +94,4 @@ Then  `[ESC]:!z80tonops` to replace the lines by a version appended with the num
 ## TODO
 
  - Tackle the limitations
- - Better integration with vim (Add/remove nops annoations, compare manually annotated nops with computed ones, ...)
+ - Better integration with vim (Add/remove nops annotations, compare manually annotated nops with computed ones, ...)
